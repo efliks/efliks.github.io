@@ -1,0 +1,160 @@
+/* Page body and header */
+body {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+  color: #1a1a2e;
+  background: #fbfbfd;
+  line-height: 1.55;
+}
+header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0;
+}
+.role {
+  color: #4a5a8a;
+  margin: 0.3rem 0 1rem;
+}
+
+/* Social icon links in the header */
+.icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: #4a5a8a;
+  font-size: 0.85rem;
+  border: 1px solid #cdd3ea;
+  border-radius: 999px;
+  padding: 0.25rem 0.8rem;
+}
+.icons a:hover {
+  background: #eef0fb;
+}
+.icons img {
+  width: 14px;
+  height: 14px;
+}
+/* Section headings (Publications, Work Experience, Education) */
+h2 {
+  font-size: 1.15rem;
+  color: #2a2a4a;
+  margin-top: 2.6rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #cdd3ea;
+}
+
+/* Work Experience / Education entries */
+.entry {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.9rem;
+  flex-wrap: wrap;
+}
+.entry-main {
+  flex: 1;
+  min-width: 240px;
+}
+.entry-title {
+  font-weight: bold;
+}
+.entry-org {
+  color: #333;
+  font-size: 0.95rem;
+}
+.entry-org a {
+  color: #333;
+  text-decoration: none;
+}
+.entry-org a:hover {
+  color: #4a5a8a;
+  text-decoration: underline;
+}
+.entry-meta {
+  color: #7a7a90;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+/* Tech skills list */
+.skill-group {
+  margin-bottom: 1rem;
+}
+.skill-cat {
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.skill-badge {
+  color: #4a5a8a;
+  font-size: 0.85rem;
+  border: 1px solid #cdd3ea;
+  border-radius: 999px;
+  padding: 0.25rem 0.8rem;
+}
+
+/* Numbered publications list */
+ol.pubs {
+  counter-reset: pub 19;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ol.pubs li {
+  counter-increment: pub -1;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.9rem;
+  padding-left: 2.2rem;
+  position: relative;
+  font-size: 0.95rem;
+}
+ol.pubs li::before {
+  content: "[" counter(pub) "]";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #4a5a8a;
+  font-weight: bold;
+}
+ol.pubs a {
+  color: #1a1a2e;
+}
+ol.pubs a:hover {
+  color: #4a5a8a;
+}
+.pub-journal {
+  color: #7a7a90;
+  font-style: italic;
+}
+.pub-thumb {
+  flex: none;
+  width: 72px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #cdd3ea;
+  background: #eef0fb;
+}
+.pub-text {
+  flex: 1;
+}
+/* Page footer */
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  color: #aaa;
+  font-size: 0.8rem;
+}
