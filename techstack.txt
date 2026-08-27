@@ -1,0 +1,8 @@
+Languages: Python, C++ (98/11), C, Cython, SQL (PL/pgSQL), shell scripting, Java, Assembler X86
+Data & AI/ML: PostgreSQL, MongoDB, Apache Iceberg, Redis, pandas, NumPy, Polars, SQLAlchemy, Alembic, Pydantic, scikit-learn, MLflow
+Cloud & Infrastructure: AWS, Docker, Kubernetes (Argo CD), GitHub Actions, Bitbucket, Jenkins, JFrog Artifactory, Temporal.io, Celery, RabbitMQ, FastAPI
+C++ ecosystem: Qt, CMake, gtest, Visual Studio
+Operating systems: Linux (Debian, Arch), Windows
+Methodologies: Agile/Scrum, SAFe, test-driven development, performance optimization, distributed systems, microservices, GAMP 5
+Algorithms: computational chemistry, cheminformatics, linear algebra, 3D geometry, optimization, CS algorithms and data structures, aspects of ML
+Cheminformatics & computational chemistry: RDKit, Open Babel, Gaussian, MOPAC, ORCA, NAMD, CHARMM, Amber, pDynamo, MOLARIS-XG, VMD
